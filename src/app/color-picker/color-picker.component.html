@@ -1,0 +1,9 @@
+<h3>Color picker</h3>
+<br>
+<div>
+  <label>Select color</label>
+  <input type="color" [(ngModel)]="bgColor">
+</div>
+<br>
+<div style="width: 100px; height: 100px" [style.background]="bgColor">
+</div>
